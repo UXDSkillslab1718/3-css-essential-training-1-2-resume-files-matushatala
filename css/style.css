@@ -33,7 +33,6 @@
 /* Global styles
 ------------------------------------*/
 html, body {
-  position:fixed;
   top:0;
   bottom:0;
   left:0;
@@ -43,7 +42,6 @@ html, body {
 body {
     background: #ffffff;
     margin: auto;
-    max-width: 60%;
     float: none;
     padding: 60px;
     /* safe font */font-family: 'Maison Neue Mono', monospace;
@@ -86,9 +84,6 @@ a {
 }
 a:hover {
   color: #ff0000;
-}
-a:visited {
-  color: #1541dd;
 }
 
 /* Header & Footer
