@@ -11,19 +11,19 @@
 ------------------------------------*/
 @font-face {
     font-family: 'Maison Neue';
-    src: url('MaisonNeue-Bold.eot');
+    src: url('https://demo.matushatala.com/fonts/MaisonNeue-Bold.eot');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'Maison Neue';
-    src: url('MaisonNeue-Book.eot');
+    src: url('https://demo.matushatala.com/fonts/MaisonNeue-Book.eot');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Maison Neue Mono';
-    src: url('MaisonNeue-Mono.eot');
+    src: url('https://demo.matushatala.com/fonts/MaisonNeue-Mono.eot');
     font-weight: normal;
     font-style: normal;
 }
@@ -63,17 +63,17 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'PlayfairDisplay';
-}
-h2 {
-  font-weight: 900;
-  font-size: 140px;
+  font-family: 'Maison Neue';
+  font-weight: bold;
 }
 
 /* Header & Footer
 ------------------------------------*/
 header h2 {
   color: #333;
+}
+img {
+  display: none;
 }
 
 
