@@ -32,16 +32,10 @@
 
 /* Global styles
 ------------------------------------*/
-html, body {
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-}
 
 body {
     background: #ffffff;
-    margin: auto;
+    margin: 50px auto;
     float: none;
     padding: 60px;
     /* safe font */font-family: 'Maison Neue Mono', monospace;
@@ -86,22 +80,66 @@ a:hover {
   color: #ff0000;
 }
 
+.content-wrap {
+  width: 50%;
+  float: left;
+  padding: 0 80px 0 0;
+}
+.img-wrap {
+  float: right;
+  width: 30%;
+}
+#left-a-little {
+  padding-left: 20px;
+}
+
 /* Header & Footer
 ------------------------------------*/
 img {
   max-width: 350px;
-  float: right;
+  position: fixed;
+  border-radius: 5px;
+}
+#hire-me {
+  position: fixed;
+  display: block;
+  font-family: 'Maison Neue', sans-serif;
+  font-weight: bold;
 }
 h1 {
-  font-size: 140px;
-  margin-bottom: 0;
+  font-size: 200px;
+  margin-bottom: 25px;
+  line-height: 190px;
+}
+header h2 {
+  max-width: 540px;
+  background-color: #f8f8f8;
+  padding: 45px 60px;
+  margin-left: -45px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.02);
 }
 
 
 /* Work Experience
 ------------------------------------*/
-
+h2 ~ p:first-child, h3 ~ p:first-child {
+  opacity: .6;
+}
 
 
 /* Education
 ------------------------------------*/
+
+/* Footer
+------------------------------------*/
+footer div a {
+  display: block;
+}
+
+footer p:last-child {
+  opacity: .6;
+}
+footer p:last-child:hover {
+  opacity: 1;
+}
