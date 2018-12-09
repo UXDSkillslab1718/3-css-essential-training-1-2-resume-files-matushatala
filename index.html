@@ -18,19 +18,26 @@
 <body>
     <!-- // Intro -->
     <header>
+      <nav>
+        <a href="#bio">About</a>
+        <a href="#work">Work Experience</a>
+        <a href="#edu">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div id="arrow-down-scroll"><ion-icon name="arrow-down"></ion-icon></div>
       <div class="img-wrap">
         <img src="images/matus-hatala.jpg" alt="Matus Hatala">
         <h4 id="hire-me"><a href="mailto:hey@matushatala.com?subject=Design a website&body=Hey I want to hire you">Hire me</a></h4>
       </div>
       <div class="content-wrap">
         <h1>Matus Hatala</h1>
-        <h2>Designer and web developer born in Slovakia and currently living & studying in The Hague, the Netherlands.</h2>
+        <h2 id="bio">Designer and web developer born in Slovakia and currently living & studying in The Hague, the Netherlands.</h2>
       </div>
     </header>
   <div class="content-wrap" id="left-a-little">
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section class="work" id="work">
             <h2>Work Experience</h2>
 
             <!-- Job 1 Details -->
@@ -65,7 +72,7 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section class="education" id="edu">
             <h2>Education</h2>
             <!-- My only higher education school details -->
             <h3>The Hague University of Applied Sciences - The Hague, NL</h3>
@@ -76,7 +83,7 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <h2>Hey! Let's keep in touch on social media.</h2>
 
         <!-- Social media links. Add or remove any networks. -->
@@ -91,5 +98,6 @@
         <p>Copyright © 2018 Matus Hatala</p>
     </footer>
   </div>
+  <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
 </body>
 </html>
