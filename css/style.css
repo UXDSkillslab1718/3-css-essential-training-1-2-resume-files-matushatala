@@ -1,1 +1,65 @@
-/* Silence is golden */
+/* Color palette
+
+#ffffff - white
+#f8f8f8 - light grey
+#000000 - black
+#ff0000 - red
+
+*/
+
+/* Global styles
+------------------------------------*/
+body {
+    background: #ffffff;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+a {
+  color: #000000;
+}
+a:hover {
+  color: #ff0000;
+}
+
+
+/* Header & Footer
+------------------------------------*/
+
+
+
+/* Work Experience
+------------------------------------*/
+
+
+
+/* Education
+------------------------------------*/
