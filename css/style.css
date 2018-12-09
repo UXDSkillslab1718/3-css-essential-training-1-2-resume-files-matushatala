@@ -12,28 +12,42 @@
 @font-face {
     font-family: 'Maison Neue';
     src: url('https://demo.matushatala.com/fonts/MaisonNeue-Bold.eot');
+    src: url('https://demo.matushatala.com/fonts/MaisonNeue-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Bold.woff2') format('woff2'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Bold.woff') format('woff'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Bold.ttf') format('truetype');
     font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Maison Neue';
-    src: url('https://demo.matushatala.com/fonts/MaisonNeue-Book.eot');
-    font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Maison Neue Mono';
     src: url('https://demo.matushatala.com/fonts/MaisonNeue-Mono.eot');
+    src: url('https://demo.matushatala.com/fonts/MaisonNeue-Mono.eot?#iefix') format('embedded-opentype'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Mono.woff2') format('woff2'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Mono.woff') format('woff'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Mono.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 /* Global styles
 ------------------------------------*/
+html, body {
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
 body {
     background: #ffffff;
-    width: 100%;
-    font-family: 'Maison Neue Book', sans-serif;
+    margin: auto;
+    max-width: 60%;
+    float: none;
+    padding: 60px;
+    /* safe font */font-family: 'Maison Neue Mono', monospace;
+    font-weight: normal;
     -webkit-animation: fadein 2s;
        -moz-animation: fadein 2s;
         -ms-animation: fadein 2s;
@@ -63,17 +77,29 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Maison Neue';
+  font-family: 'Maison Neue', sans-serif;
   font-weight: bold;
+}
+
+a {
+  color: #1573dd;
+}
+a:hover {
+  color: #ff0000;
+}
+a:visited {
+  color: #1541dd;
 }
 
 /* Header & Footer
 ------------------------------------*/
-header h2 {
-  color: #333;
-}
 img {
-  display: none;
+  max-width: 350px;
+  float: right;
+}
+h1 {
+  font-size: 140px;
+  margin-bottom: 0;
 }
 
 
