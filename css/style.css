@@ -38,7 +38,7 @@ body {
     margin: 50px auto;
     float: none;
     padding: 60px;
-    /* safe font */font-family: 'Maison Neue Mono', monospace;
+    font-family: 'Maison Neue Mono', monospace;
     font-weight: normal;
     -webkit-animation: fadein 2s;
        -moz-animation: fadein 2s;
@@ -89,11 +89,46 @@ a:hover {
   float: right;
   width: 30%;
 }
+@media (max-width: 1070px) {
+  .content-wrap {
+    width: 60%;
+    float: none;
+    margin: auto;
+    padding: 0;
+  }
+  .img-wrap {
+    float: none;
+    margin: auto;
+    width: 50%;
+  }
+  h1 {
+    font-size: 160px;
+    line-height: 150px;
+    text-align: center;
+  }
+  img {
+    position: static;
+  }
+  nav {
+    text-align: center;
+  }
+  header h2 {
+    margin: auto;
+    text-align: center;
+    padding: 45px 20px;
+  }
+  footer p {
+    text-align: center;
+  }
+  #left-a-little {
+    padding-left: 0;
+  }
+  #hire-me {
+    position: static;
+  }
+}
 #left-a-little {
   padding-left: 20px;
-}
-
-#arrow-down-scroll {
 }
 
 /* Header & Footer
@@ -139,14 +174,6 @@ nav a {
   padding: 10px 20px;
   color: #000;
 }
-
-/* Work Experience
-------------------------------------*/
-
-
-/* Education
-------------------------------------*/
-
 
 /* Footer
 ------------------------------------*/
