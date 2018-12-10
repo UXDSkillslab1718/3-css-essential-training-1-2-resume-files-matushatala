@@ -127,6 +127,21 @@ a:hover {
     position: static;
   }
 }
+@media (max-width: 768px) {
+  nav a {
+    padding: 10px 15px;
+  }
+  h1 {
+    font-size: 80px;
+    line-height: 70px;
+  }
+  .content-wrap {
+    width: 80%;
+  }
+  .img-wrap {
+    width: 80%;
+  }
+}
 #left-a-little {
   padding-left: 20px;
 }
