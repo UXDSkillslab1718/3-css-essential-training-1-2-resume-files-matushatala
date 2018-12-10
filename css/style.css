@@ -118,21 +118,22 @@ h1 {
   font-size: 200px;
   margin-bottom: 25px;
   line-height: 190px;
+  margin-left: 6px;
 }
 header h2 {
   max-width: 540px;
-  background-color: #f8f8f8;
-  padding: 45px 60px;
-  margin-left: -45px;
+  padding: 45px 0 45px 20px;
   border-radius: 5px;
-  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(248,248,248);
+  background: -moz-linear-gradient(45deg, rgba(248,248,248,1) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(248,248,248,1) 0%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(45deg, rgba(248,248,248,1) 0%,rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#ffffff',GradientType=1 );
 }
 
-/* Work Experience
+/* Navigation
 ------------------------------------*/
-nav {
-  margin-left: -5px;
-}
 /* no fixed position because I didn't like the way it looked */
 nav a {
   padding: 10px 20px;
