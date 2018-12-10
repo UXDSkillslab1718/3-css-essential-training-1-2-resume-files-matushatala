@@ -109,7 +109,7 @@ a:hover {
     text-align: center;
   }
   img {
-    position: static;
+    position: static!important;
   }
   nav {
     text-align: center;
@@ -126,7 +126,7 @@ a:hover {
     padding-left: 0;
   }
   #hire-me {
-    position: static;
+    position: static!important;
   }
 }
 @media (max-width: 768px) {
@@ -151,7 +151,7 @@ a:hover {
     text-align: center;
   }
   img {
-    position: static;
+    position: static!important;
   }
   nav {
     text-align: center;
@@ -168,7 +168,7 @@ a:hover {
     padding-left: 0;
   }
   #hire-me {
-    position: static;
+    position: static!important;
   }
 }
 @media (max-width: 480px) {
@@ -193,7 +193,7 @@ a:hover {
     text-align: center;
   }
   img {
-    position: static;
+    position: static!important;
   }
   nav {
     text-align: center;
@@ -210,7 +210,7 @@ a:hover {
     padding-left: 0;
   }
   #hire-me {
-    position: static;
+    position: static!important;
   }
 }
 @media (max-width: 400px) {
@@ -235,7 +235,7 @@ a:hover {
     text-align: center;
   }
   img {
-    position: static;
+    position: static!important;
   }
   nav {
     text-align: center;
@@ -252,7 +252,7 @@ a:hover {
     padding-left: 0;
   }
   #hire-me {
-    position: static;
+    position: static!important;
   }
 }
 #left-a-little {
