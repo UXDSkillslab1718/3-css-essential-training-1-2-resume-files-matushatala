@@ -91,19 +91,20 @@ a:hover {
 }
 @media (max-width: 1070px) {
   .content-wrap {
-    width: 60%;
+    max-width: 900px!important;
     float: none;
     margin: auto;
     padding: 0;
+    width: auto;
   }
   .img-wrap {
     float: none;
     margin: auto;
-    width: 50%;
+    max-width: 300px;
   }
   h1 {
-    font-size: 160px;
-    line-height: 150px;
+    font-size: 160px!important;
+    line-height: 150px!important;
     text-align: center;
   }
   img {
@@ -115,7 +116,7 @@ a:hover {
   header h2 {
     margin: auto;
     text-align: center;
-    padding: 45px 20px;
+    padding: 45px 20px 45px 20px!important;
   }
   footer p {
     text-align: center;
@@ -131,15 +132,126 @@ a:hover {
   nav a {
     padding: 10px 15px;
   }
-  h1 {
-    font-size: 80px;
-    line-height: 70px;
-  }
   .content-wrap {
-    width: 80%;
+    max-width: 600px!important;
+    float: none;
+    margin: auto;
+    padding: 0;
+    width: auto;
   }
   .img-wrap {
-    width: 80%;
+    float: none;
+    margin: auto;
+    max-width: 300px;
+  }
+  h1 {
+    font-size: 120px!important;
+    line-height: 110px!important;
+    text-align: center;
+  }
+  img {
+    position: static;
+  }
+  nav {
+    text-align: center;
+  }
+  header h2 {
+    margin: auto;
+    text-align: center;
+    padding: 45px 20px 45px 20px;
+  }
+  footer p {
+    text-align: center;
+  }
+  #left-a-little {
+    padding-left: 0;
+  }
+  #hire-me {
+    position: static;
+  }
+}
+@media (max-width: 480px) {
+  nav a {
+    padding: 10px 15px;
+  }
+  .content-wrap {
+    max-width: 400px!important;
+    float: none;
+    margin: auto;
+    padding: 0;
+    width: auto;
+  }
+  .img-wrap {
+    float: none;
+    margin: auto;
+    max-width: 300px;
+  }
+  h1 {
+    font-size: 100px!important;
+    line-height: 90px!important;
+    text-align: center;
+  }
+  img {
+    position: static;
+  }
+  nav {
+    text-align: center;
+  }
+  header h2 {
+    margin: auto;
+    text-align: center;
+    padding: 45px 20px 45px 20px;
+  }
+  footer p {
+    text-align: center;
+  }
+  #left-a-little {
+    padding-left: 0;
+  }
+  #hire-me {
+    position: static;
+  }
+}
+@media (max-width: 400px) {
+  nav a {
+    padding: 10px 15px;
+  }
+  .content-wrap {
+    max-width: 380px!important;
+    float: none;
+    margin: auto;
+    padding: 0;
+    width: auto;
+  }
+  .img-wrap {
+    float: none;
+    margin: auto;
+    max-width: 300px;
+  }
+  h1 {
+    font-size: 80px!important;
+    line-height: 70px!important;
+    text-align: center;
+  }
+  img {
+    position: static;
+  }
+  nav {
+    text-align: center;
+  }
+  header h2 {
+    margin: auto;
+    text-align: center;
+    padding: 45px 20px 45px 20px;
+  }
+  footer p {
+    text-align: center;
+  }
+  #left-a-little {
+    padding-left: 0;
+  }
+  #hire-me {
+    position: static;
   }
 }
 #left-a-little {
